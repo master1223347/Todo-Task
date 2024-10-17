@@ -41,8 +41,6 @@ def delete(index):
     return redirect(url_for("index"))
 
 
-print('Hi')
-
 
 if __name__ == '__main__':
     app.run(debug=True)
